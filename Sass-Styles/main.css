@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap);
+header {
+  position: relative;
+}
+
+header .header_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  header .header_container {
+    padding-top: 15px;
+  }
+}
+
+header .header_container .logo_wrapper {
+  width: 50%;
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 992px) {
+  header .header_container .logo_wrapper {
+    margin-left: 30px;
+  }
+}
+
+header .header_container .logo_wrapper .header_logo {
+  height: auto;
+  width: 190px;
+}
+
+@media only screen and (max-width: 992px) {
+  header .header_container .logo_wrapper .header_logo {
+    width: 170px;
+  }
+}
+
+header .header_container .header_nav {
+  width: 50%;
+  margin-right: 100px;
+}
+
+@media only screen and (max-width: 992px) {
+  header .header_container .header_nav {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header .header_container .header_nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: wheat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+}
+
+header .header_container .header_nav .nav_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media only screen and (max-width: 768px) {
+  header .header_container .header_nav .nav_list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+  }
+}
+
+header .header_container .header_nav .nav_list li {
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  header .header_container .header_nav .nav_list li {
+    padding: 20px 0;
+  }
+}
+
+header .header_container .header_nav .nav_list li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 992px) {
+  header .header_container .header_nav .nav_list li a {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header .header_container .header_nav .nav_list li a {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+.active {
+  display: none !important;
+}
+/*# sourceMappingURL=main.css.map */
