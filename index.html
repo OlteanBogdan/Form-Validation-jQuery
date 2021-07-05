@@ -8,14 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="Sass-Styles/main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>Test site</title>
 </head>
+<link rel="stylesheet" type="text/css" href="slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
 <body>
     <header>
         <div class="header_container">
             <div class="logo_wrapper">
-                <img class="header_logo" src="/images/Google_Chrome_logo_with_wordmark_(2015).svg.png" alt="logo">
+                <img class="header_logo" src="/images/1200px-Cosmos_logo.png" alt="logo">
             </div>
             <div class="header_nav">
                 <ul class="nav_list">
@@ -24,9 +28,34 @@
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
+                <div class="container active">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
             </div>
         </div>
     </header>
+    <section>
+        <div class="login_form">
+            <div class="login_wrapper">
+                <form class="form" novalidate action="">
+                    <input class="email" placeholder="Enter your email" type="email" name="" id="">
+                    <p class="email-message"></p>
+                    <input class="password" placeholder="Enter your password" type="password">
+                    <p class="password-message"></p>
+                    <input class="match" placeholder="Renter your password" type="password">
+                    <p class="match-message"></p>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+                <i class="far fa-eye"></i>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
+<script src="/app.js"></script>
 
 </html>
