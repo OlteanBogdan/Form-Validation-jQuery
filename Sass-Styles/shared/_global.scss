@@ -1,8 +1,8 @@
 body {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-size: 20px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
 }
 
 ul {
@@ -11,4 +11,22 @@ ul {
 
 .active {
     display: none !important;
+}
+
+.succes {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+p {
+    margin: 0;
+}
+
+.fa-eye {
+    margin-top: 20px;
+    color: black;
+    cursor: pointer;
 }
